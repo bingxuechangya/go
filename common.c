@@ -5,12 +5,6 @@
 int _czm_debug_in_loop_;
 int _czm_debug_loop_counter_;
 
-#ifdef VERBOSE
-int verbose_flag = VERBOSE;
-#else
-int verbose_flag;
-#endif
-
 void *xmalloc(size_t size)
 {
     void *ptr = NULL;
